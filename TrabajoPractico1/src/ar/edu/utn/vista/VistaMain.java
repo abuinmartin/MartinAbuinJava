@@ -11,9 +11,9 @@ public class VistaMain {
 	public static void main(String[] args) {
 		
     Scanner scan = new Scanner(System.in);
-	Boxeador boxeadores[] = new Boxeador[5];
+	Boxeador boxeadores[] = new Boxeador[25];
 		
-		for (int i = 0; i < 5; i++){
+		for (int i = 0; i < 25; i++){
 			
 			
 			Boxeador box = new Boxeador();
@@ -37,7 +37,7 @@ public class VistaMain {
 		
          EntrenadoresControlador ec = new EntrenadoresControlador();
          
-         for(int i =0 ; i < 5 ; i++){
+         for(int i =0 ; i < 25 ; i++){
          
          if(boxeadores[i].getCategoria() == Categoria.MOSCA || boxeadores[i].getCategoria() == Categoria.GALLO ){
         	 
